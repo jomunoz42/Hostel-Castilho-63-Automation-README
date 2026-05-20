@@ -128,7 +128,7 @@ After the list is generated, it is printed automatically.
 ```md
 <!-- IMAGE PLACEHOLDER -->
 <!-- Breakfast list printed -->
-![Breakfast List](images/breakfast-list.png)
+![Breakfast List](images/breakfast-list.jpg)
 ```
 
 ---
@@ -203,7 +203,7 @@ If the table is completed successfully, the code list is printed automatically.
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Completed Word table with generated codes -->
-![Completed Code Table](images/code-table-completed.png)
+![Completed Code Table](images/code-table-completed.jpg)
 ```
 
 ---
