@@ -150,7 +150,6 @@ The final result is prepared in a format suitable for operational usage and trac
 <!-- Tax list on Google Sheets -->
 ![Tax List](images/tax-list.png)
 
-
 ---
 
 ## 🔑 Door Code Automation
@@ -203,7 +202,7 @@ If the table is completed successfully, the code list is printed automatically.
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Completed Word table with generated codes -->
-![Completed Code Table](images/code-table-completed.jpg)
+<img src="images/code-table-completed.jpg" width="600"/>
 
 
 ---
