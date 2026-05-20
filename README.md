@@ -72,15 +72,15 @@ manager.py
 
 `manager.py` is responsible for coordinating the full workflow, including:
 
-- creating the daily log file if it does not exist
-- checking required environment credentials
-- logging into external platforms
-- exporting reservation files
-- converting and duplicating Excel files
-- launching each automation stage
-- printing generated documents
-- sending WhatsApp messages
-- cleaning temporary files safely
+- Creating the daily log file if it does not exist
+- Checking required environment credentials
+- Logging into external platforms
+- Exporting reservation files
+- Converting and duplicating Excel files
+- Launching each automation stage
+- Printing generated documents
+- Sending WhatsApp messages
+- Cleaning temporary files safely
 
 The project follows a simple principle:
 
@@ -104,8 +104,8 @@ The automation logs into **Ynnov**, the PMS used to manage reservations.
 
 From there, it exports two `.xls` files:
 
-1. a file containing all guests currently staying in the hostel
-2. a file containing all guests checking in the next day
+1. A file containing all guests currently staying in the hostel
+2. A file containing all guests checking in the next day
 
 These files are then converted to `.xlsx` and duplicated depending on the operational task they will support.
 
@@ -115,21 +115,21 @@ These files are then converted to `.xlsx` and duplicated depending on the operat
 
 From the reservation export, the automation creates a breakfast list containing:
 
-- guest names
-- number of adults
-- number of children
-- room information
-- total number of people
+- Guest names
+- Number of adults
+- Number of children
+- Room information
+- Total number of people
 
 The script also parses and cleans invalid entries, removing guests who should not appear in the breakfast list for several operational reasons.
 
 After the list is generated, it is printed automatically.
 
-```md
+
 <!-- IMAGE PLACEHOLDER -->
 <!-- Breakfast list printed -->
 ![Breakfast List](images/breakfast-list.jpg)
-```
+
 
 ---
 
@@ -145,11 +145,11 @@ The tax list is generated from reservation data and contains:
 
 The final result is prepared in a format suitable for operational usage and tracking.
 
-```md
+
 <!-- IMAGE PLACEHOLDER -->
 <!-- Tax list on Google Sheets -->
 ![Tax List](images/tax-list.png)
-```
+
 
 ---
 
@@ -196,7 +196,7 @@ The automation fills the table in the correct format and ensures that the final 
 
 If the table is completed successfully, the code list is printed automatically.
 
-```md
+
 <!-- IMAGE PLACEHOLDER -->
 <!-- Empty Word table before automation -->
 ![Empty Code Table](images/code-table-empty.png)
@@ -204,7 +204,7 @@ If the table is completed successfully, the code list is printed automatically.
 <!-- IMAGE PLACEHOLDER -->
 <!-- Completed Word table with generated codes -->
 ![Completed Code Table](images/code-table-completed.jpg)
-```
+
 
 ---
 
@@ -214,9 +214,9 @@ The pipeline also automates part of the remote check-in process for a separate p
 
 From another copy of the reservation file, the automation extracts the guests associated with the remote property and formats:
 
-- names
-- phone numbers
-- room information
+- Names
+- Phone numbers
+- Room information
 
 It then creates a `.vcf` contact file containing all required guest contacts.
 
@@ -228,11 +228,11 @@ After that, the automation uses WhatsApp Web links to send the first remote chec
 
 To reduce the risk of being blocked or flagged by WhatsApp, messages are sent with a randomized delay between **8 and 10 seconds**.
 
-```md
+
 <!-- IMAGE PLACEHOLDER -->
 <!-- WhatsApp messages sent -->
 ![WhatsApp Messages](images/whatsapp-messages.png)
-```
+
 
 ---
 
