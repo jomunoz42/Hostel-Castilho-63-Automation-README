@@ -128,7 +128,7 @@ After the list is generated, it is printed automatically.
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Breakfast list printed -->
-![Breakfast List](images/breakfast-list.jpg)
+<img src="images/breakfast-list.jpg" width="500"/>
 
 
 ---
