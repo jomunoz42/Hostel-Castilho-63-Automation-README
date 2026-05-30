@@ -198,7 +198,7 @@ If the table is completed successfully, the code list is printed automatically.
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Empty Word table before automation -->
-<img src="images/images/code-table-empty.png" width="400"/>
+<img src="images/code-table-empty.png" width="400"/>
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Completed Word table with generated codes -->
