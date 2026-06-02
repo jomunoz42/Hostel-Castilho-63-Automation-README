@@ -18,6 +18,7 @@ The system is currently used internally and was designed with a practical goal: 
 
 Below is the access-code automation in action — one of the highest-impact parts of the pipeline.
 
+
 <img src="gifs/code_generation.gif" width="100%"/>
 
 ---
@@ -133,7 +134,7 @@ The script also parses and cleans invalid entries, removing guests who should no
 After the list is generated, it is printed automatically.
 
 <p align="center">
-    <img src="images/breakfast-list.jpg" width="70%">
+    <img src="images/breakfast-list.jpg" width="75%">
 </p>
 
 ---
@@ -198,11 +199,13 @@ The automation fills the table in the correct format and ensures that the final 
 If the table is completed successfully, the code list is printed automatically.
 
 
-<!-- Empty Word table before automation -->
-<img src="images/code-table-empty.png" width="70%"/>
+<p align="center">
+    <img src="images/code-table-empty.png" width="75%"/>
+</p>
 
-<!-- Completed Word table with generated codes -->
-<img src="images/code-table-completed.jpg" width="70%"/>
+<p align="center">
+    <img src="images/code-table-completed.jpg" width="75%"/>
+</p>
 
 
 ---
