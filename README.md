@@ -16,6 +16,8 @@ This project was developed to solve real operational problems in a live hospital
 
 The system is currently used internally and was designed with a practical goal: reduce manual workload, avoid human errors, and make daily operations way faster and more reliable.
 
+<img src="gifs/code_generation.gif" width="100%"/>
+
 ---
 
 ## 📌 Project Context
@@ -128,7 +130,7 @@ After the list is generated, it is printed automatically.
 
 <!-- IMAGE PLACEHOLDER -->
 <!-- Breakfast list printed -->
-<img src="images/breakfast-list.jpg" width="500"/>
+<img src="images/breakfast-list.jpg" width="100%"/>
 
 
 ---
@@ -145,10 +147,7 @@ The tax list is generated from reservation data and contains:
 
 The final result is prepared in a format suitable for operational usage and tracking.
 
-
-<!-- IMAGE PLACEHOLDER -->
-<!-- Tax list on Google Sheets -->
-![Tax List](images/tax-list.png)
+<img src="images/tax-list.png" width="100%"/>
 
 ---
 
@@ -196,13 +195,11 @@ The automation fills the table in the correct format and ensures that the final 
 If the table is completed successfully, the code list is printed automatically.
 
 
-<!-- IMAGE PLACEHOLDER -->
 <!-- Empty Word table before automation -->
-<img src="images/code-table-empty.png" width="400"/>
+<img src="images/code-table-empty.png" width="100%"/>
 
-<!-- IMAGE PLACEHOLDER -->
 <!-- Completed Word table with generated codes -->
-<img src="images/code-table-completed.jpg" width="600"/>
+<img src="images/code-table-completed.jpg" width="100%"/>
 
 
 ---
@@ -228,10 +225,8 @@ After that, the automation uses WhatsApp Web links to send the first remote chec
 To reduce the risk of being blocked or flagged by WhatsApp, messages are sent with a randomized delay between **8 and 10 seconds**.
 
 
-<!-- IMAGE PLACEHOLDER -->
 <!-- WhatsApp messages sent -->
-![WhatsApp Messages](images/whatsapp-messages.png)
-
+<img src="images/whatsapp-messages.png" width="100%"/>
 
 ---
 
