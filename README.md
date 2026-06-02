@@ -16,6 +16,8 @@ This project was developed to solve real operational problems in a live hospital
 
 The system is currently used internally and was designed with a practical goal: reduce manual workload, avoid human errors, and make daily operations way faster and more reliable.
 
+Below is the access-code automation in action — one of the highest-impact parts of the pipeline.
+
 <img src="gifs/code_generation.gif" width="100%"/>
 
 ---
@@ -76,12 +78,15 @@ manager.py
 
 - Creating the daily log file if it does not exist
 - Checking required environment credentials
-- Logging into external platforms
-- Exporting reservation files
-- Converting and duplicating Excel files
-- Launching each automation stage
-- Printing generated documents
-- Sending WhatsApp messages
+- Logging into Ynnov, the reservation platform
+- Exporting, converting and duplicating Excel files for each automation stage
+- Creating and printing the breakfast list
+- Creating and setting the city tax list
+- Logging into TTLock, the access-code platform
+- Parsing reservation data and generating all required access codes
+- Inserting generated codes into a Word template and printing the final document
+- Creating and sending the VCF contact file
+- Parsing guest contacts and sending WhatsApp messages
 - Cleaning temporary files safely
 
 The project follows a simple principle:
@@ -127,11 +132,9 @@ The script also parses and cleans invalid entries, removing guests who should no
 
 After the list is generated, it is printed automatically.
 
-
-<!-- IMAGE PLACEHOLDER -->
-<!-- Breakfast list printed -->
-<img src="images/breakfast-list.jpg" width="100%"/>
-
+<p align="center">
+    <img src="images/breakfast-list.jpg" width="70%">
+</p>
 
 ---
 
@@ -196,10 +199,10 @@ If the table is completed successfully, the code list is printed automatically.
 
 
 <!-- Empty Word table before automation -->
-<img src="images/code-table-empty.png" width="100%"/>
+<img src="images/code-table-empty.png" width="70%"/>
 
 <!-- Completed Word table with generated codes -->
-<img src="images/code-table-completed.jpg" width="100%"/>
+<img src="images/code-table-completed.jpg" width="70%"/>
 
 
 ---
