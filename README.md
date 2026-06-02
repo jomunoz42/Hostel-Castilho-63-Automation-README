@@ -14,31 +14,14 @@ I have built a Python automation pipeline to streamline daily hostel operations 
 
 This project was developed to solve real operational problems in a live hospitality environment, automating repetitive workflows related to reservations, breakfast lists, city tax processing, door code generation, Word document creation, VCF contact generation, and WhatsApp guest communication.
 
+This pipeline automates the full process from raw reservation exports to printed operational documents and guest communication.
+
 The system is currently used internally and was designed with a practical goal: reduce manual workload, avoid human errors, and make daily operations way faster and more reliable.
 
 Below is the access-code automation in action — one of the highest-impact parts of the pipeline.
 
 
 <img src="gifs/code_generation.gif" width="100%"/>
-
----
-
-## 📌 Project Context
-
-Hostel operations involve several repetitive daily tasks:
-
-- Exporting reservation data from the Ynnov platform
-- Preparing breakfast list
-- Preparing city tax list
-- Creating access codes for guests
-- Filling printed code sheets
-- Registering WhatsApp contacts
-- Sending remote check-in messages
-- Cleaning generated files after execution
-
-Before automation, these tasks required a significant amount of concentrated manual work and were especially error-prone for people with little computer experience.
-
-This pipeline automates the full process from raw reservation exports to printed operational documents and guest communication.
 
 ---
 
